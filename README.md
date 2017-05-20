@@ -9,7 +9,7 @@ About files/folders in this repository:
 
 There are 7 parts in run_analysis.R:
 ### 0. Read data files to make data frames.
-  * 4 data frames is made for using:
+  * 4 data frames are made for using:
    `activity_labels`
    `features`
    `train_sets`
@@ -29,7 +29,7 @@ There are 7 parts in run_analysis.R:
 
 ### 4. Appropriately labels the data set with descriptive variable names.
   * Replaces abbreviations in column names of `analysis_data` with proper words, such as replacing "t" with "TimeDomain".
-  * And does other neccessary replacement to make descriptive variable (column) names.
+  * And does other necessary replacement to make descriptive variable (column) names.
 
 ### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   * Groups `analysis_data` with the columns of `activity` and `subject`, then makes average of each columns for each group.
