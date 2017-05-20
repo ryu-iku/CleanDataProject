@@ -1,0 +1,354 @@
+==== Code Book - Clean Data Project Result Data ====
+
+
+activity
+	Activity of each subject (experiment volunteers)
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+
+subject
+	Id of each person of the group of 30 volunteers
+		1 ~ 30
+
+TimeDomain.BodyAcceleration.mean.X
+	Time domain body acceleration signals' mean value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.mean.Y
+	Time domain body acceleration signals' mean value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.mean.Z
+	Time domain body acceleration signals' mean value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.GravityAcceleration.mean.X
+	Time domain gravity acceleration signals' mean value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.GravityAcceleration.mean.Y
+	Time domain gravity acceleration signals' mean value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.GravityAcceleration.mean.Z
+	Time domain gravity acceleration signals' mean value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.JerkSignal.mean.X
+	Time domain body acceleration Jerk signals' mean value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.JerkSignal.mean.Y
+	Time domain body acceleration Jerk signals' mean value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.JerkSignal.mean.Z
+	Time domain body acceleration Jerk signals' mean value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.mean.X
+	Time domain body gyroscope signals' mean value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.mean.Y
+	Time domain body gyroscope signals' mean value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.mean.Z
+	Time domain body gyroscope signals' mean value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.JerkSignal.mean.X
+	Time domain body gyroscope Jerk signals' mean value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.JerkSignal.mean.Y
+	Time domain body gyroscope Jerk signals' mean value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.JerkSignal.mean.Z
+	Time domain body gyroscope Jerk signals' mean value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.Magnitude.mean
+	Time domain body acceleration signal magnitudes' mean value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.GravityAcceleration.Magnitude.mean
+	Time domain gravity acceleration signal magnitudes' mean value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.JerkSignal.Magnitude.mean
+	Time domain body acceleration Jerk signal magnitudes' mean value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.Magnitude.mean
+	Time domain body gyroscope signal magnitudes' mean value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.JerkSignal.Magnitude.mean
+	Time domain body gyroscope Jerk signal magnitudes' mean value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.mean.X
+	Frequency domain body acceleration signals' mean value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.mean.Y
+	Frequency domain body acceleration signals' mean value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.mean.Z
+	Frequency domain body acceleration signals' mean value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.JerkSignal.mean.X
+	Frequency domain body acceleration Jerk signals' mean value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.JerkSignal.mean.Y
+	Frequency domain body acceleration Jerk signals' mean value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.JerkSignal.mean.Z
+	Frequency domain body acceleration Jerk signals' mean value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyGyroscope.mean.X
+	Frequency domain body gyroscope signals' mean value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyGyroscope.mean.Y
+	Frequency domain body gyroscope signals' mean value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyGyroscope.mean.Z
+	Frequency domain body gyroscope signals' mean value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.Magnitude.mean
+	Frequency domain body acceleration signal magnitudes' mean value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.JerkSignal.Magnitude.mean
+	Frequency domain body acceleration Jerk signal magnitudes' mean value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyGyroscope.Magnitude.mean
+	Frequency domain body gyroscope signal magnitudes' mean value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyGyroscope.JerkSignal.Magnitude.mean
+	Frequency domain body gyroscope Jerk signal magnitudes' mean value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.StandardDeviation.X
+	Time domain body acceleration signals' standard deviation value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.StandardDeviation.Y
+	Time domain body acceleration signals' standard deviation value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.StandardDeviation.Z
+	Time domain body acceleration signals' standard deviation value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.GravityAcceleration.StandardDeviation.X
+	Time domain gravity acceleration signals' standard deviation value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.GravityAcceleration.StandardDeviation.Y
+	Time domain gravity acceleration signals' standard deviation value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.GravityAcceleration.StandardDeviation.Z
+	Time domain gravity acceleration signals' standard deviation value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.JerkSignal.StandardDeviation.X
+	Time domain body acceleration Jerk signals' standard deviation value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.JerkSignal.StandardDeviation.Y
+	Time domain body acceleration Jerk signals' standard deviation value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.JerkSignal.StandardDeviation.Z
+	Time domain body acceleration Jerk signals' standard deviation value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.StandardDeviation.X
+	Time domain body gyroscope signals' standard deviation value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.StandardDeviation.Y
+	Time domain body gyroscope signals' standard deviation value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.StandardDeviation.Z
+	Time domain body gyroscope signals' standard deviation value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.JerkSignal.StandardDeviation.X
+	Time domain body gyroscope Jerk signals' standard deviation value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.JerkSignal.StandardDeviation.Y
+	Time domain body gyroscope Jerk signals' standard deviation value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.JerkSignal.StandardDeviation.Z
+	Time domain body gyroscope Jerk signals' standard deviation value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.Magnitude.StandardDeviation
+	Time domain body acceleration signal magnitudes' standard deviation value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.GravityAcceleration.Magnitude.StandardDeviation
+	Time domain gravity acceleration signal magnitudes' standard deviation value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyAcceleration.JerkSignal.Magnitude.StandardDeviation
+	Time domain body acceleration Jerk signal magnitudes' standard deviation value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.Magnitude.StandardDeviation
+	Time domain body gyroscope signal magnitudes' standard deviation value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+TimeDomain.BodyGyroscope.JerkSignal.Magnitude.StandardDeviation
+	Time domain body gyroscope Jerk signal magnitudes' standard deviation value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.StandardDeviation.X
+	Frequency domain body acceleration signals' standard deviation value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.StandardDeviation.Y
+	Frequency domain body acceleration signals' standard deviation value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.StandardDeviation.Z
+	Frequency domain body acceleration signals' standard deviation value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.JerkSignal.StandardDeviation.X
+	Frequency domain body acceleration Jerk signals' standard deviation value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.JerkSignal.StandardDeviation.Y
+	Frequency domain body acceleration Jerk signals' standard deviation value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.JerkSignal.StandardDeviation.Z
+	Frequency domain body acceleration Jerk signals' standard deviation value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyGyroscope.StandardDeviation.X
+	Frequency domain body gyroscope signals' standard deviation value at X direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyGyroscope.StandardDeviation.Y
+	Frequency domain body gyroscope signals' standard deviation value at Y direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyGyroscope.StandardDeviation.Z
+	Frequency domain body gyroscope signals' standard deviation value at Z direction 
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.Magnitude.StandardDeviation
+	Frequency domain body acceleration signal magnitudes' standard deviation value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyAcceleration.JerkSignal.Magnitude.StandardDeviation
+	Frequency domain body acceleration Jerk signal magnitudes' standard deviation value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyGyroscope.Magnitude.StandardDeviation
+	Frequency domain body gyroscope signal magnitudes' standard deviation value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+FrequencyDomain.BodyGyroscope.JerkSignal.Magnitude.StandardDeviation
+	Frequency domain body gyroscope Jerk signal magnitudes' standard deviation value
+	* Average for each activity and each subject, normalized and bounded within [-1,1].
+		-1 ~ 1
+
+
+
+**NOTE:
+These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals. 
