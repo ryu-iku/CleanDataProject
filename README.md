@@ -2,10 +2,10 @@ This is a R programming to analysis wearable device experimental data.
 
 About files/folders in this repository:
 
-  `UCI HAR Dataset` (folder) : the target data for analysis, downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-  `CleanDataProjectResultData.txt` : result data of run_analysis.R
-  `Code Book - Clean Data Project Result Data.txt` : code book of the result data
-  `run_analysis.R` : R programming to analysis the target data
+  *`UCI HAR Dataset` (folder) : the target data for analysis, downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  *`CleanDataProjectResultData.txt` : result data of run_analysis.R
+  *`Code Book - Clean Data Project Result Data.txt` : code book of the result data
+  *`run_analysis.R` : R programming to analysis the target data
 
 There are 7 parts in run_analysis.R:
 ### 0. Read data files to make data frames.
